@@ -37,4 +37,4 @@ sql-analytics-scripts/
 
 ## Acknowledgments
 
-This project was developed as part of a SQL course by Baraa Khatib Salkini, applying data analysis concepts and best practices.
+This project was developed during a SQL course by Baraa Khatib Salkini. The scripts demonstrate practical applications of data analysis techniques learned throughout the training.
