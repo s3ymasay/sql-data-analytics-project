@@ -93,7 +93,7 @@ DATEDIFF(month, last_order_date, GETDATE()) AS recency,
 total_orders,
 total_sales,
 total_quantity,
-total_products
+total_products,
 lifespan,
 -- Compuate average order value (AVO)
 CASE WHEN total_sales = 0 THEN 0
@@ -103,4 +103,5 @@ END AS avg_order_value,
 CASE WHEN lifespan = 0 THEN total_sales
      ELSE total_sales / lifespan
 END AS avg_monthly_spend
+
 FROM customer_aggregation
